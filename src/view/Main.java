@@ -30,13 +30,14 @@ public class Main {
         rooms.add(room2);
         rooms.add(room3);
         rooms.add(room4);
-        HotelManager daeWoo = new HotelManager(human, rooms);
-//        Booking bookingOfQuan = new Booking();
-//        bookingOfQuan.setHuman(human1);
-//        bookingOfQuan.setRoom(room1);
-//        bookingOfQuan.setCheckin(LocalDate.of(2022,9,1));
-//        bookingOfQuan.setCheckout(LocalDate.of(2022,9,4));
-//        System.out.println(bookingOfQuan.getTotalPrice());
 
+        Booking QuanDiBooking = new Booking();
+        QuanDiBooking.setHuman(human4);
+        QuanDiBooking.setRoom(room2);
+        QuanDiBooking.setCheckin(LocalDate.of(2022,9,1));
+        QuanDiBooking.setCheckout(LocalDate.of(2022,9,4));
+        System.out.println(QuanDiBooking.getHuman());
+        System.out.println(QuanDiBooking.getRoom());
+        System.out.println(QuanDiBooking.getTotalPrice());
     }
 }

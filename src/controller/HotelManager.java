@@ -10,7 +10,10 @@ public class HotelManager {
         this.userList = userList;
         this.roomList = roomList;
     }
-
+    public HotelManager() {
+        this.userList = userList;
+        this.roomList = roomList;
+    }
     ArrayList<Human> userList = new ArrayList<>();
     ArrayList<Room> roomList = new ArrayList<>();
     ArrayList<Booking> booking = new ArrayList<>();

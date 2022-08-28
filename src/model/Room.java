@@ -42,6 +42,15 @@ public class Room {
         this.status = status;
     }
 
+    @Override
+    public String toString() {
+        return "Room{" +
+                "type='" + type + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
     private String name;
 private int price;
 public boolean status;
